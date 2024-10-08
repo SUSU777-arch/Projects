@@ -1,0 +1,303 @@
+body {
+    background-color: white;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+}
+
+.g {
+    padding-right: 180px;
+    font-size: x-large;
+}
+
+
+.up {
+    color: #ffffff;
+    text-decoration: solid;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 40px;
+    flex-wrap: wrap;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.f {
+    display: flex;
+    gap: 30px;
+    color: #ffffff;
+
+}
+
+.h {
+    display: flex;
+    gap: 30px;
+}
+
+.up a {
+    text-decoration: none;
+    color: #000000;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+
+/* MAIN */
+
+.gamp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gamp-1 {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    padding-left: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: last baseline;
+    gap: 60px;
+}
+
+
+.Searchbar {
+    margin-right: 100px;
+    position: relative;
+}
+
+.Searchbar input {
+    font-size: 15px;
+    padding-left: 20px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    outline: none;
+    transition: 1s;
+    border: 1px solid grey;
+    border-radius: 100px;
+}
+
+.Active {
+    width: 350px !important;
+}
+
+.btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    border: 1px solid grey;
+    top: 0;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+    color: black;
+}
+
+.collection {
+    background-color: #FFD700;
+    padding: 5px;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    color: black;
+    padding-left: 35px;
+    padding-right: 35px;
+
+}
+
+
+/* SUMMER/SPRING */
+
+
+.CLOTHES {
+    font-family: serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 30px;
+}
+
+.summer {
+    width: 300px;
+    height: 470px;
+    border-radius: 13px;
+}
+
+.detail {
+    justify-content: space-between;
+    display: flex;
+    padding: 0px 5px 0px 5px;
+}
+
+.detail-1 {
+    width: 200px;
+}
+
+.detail button {
+    padding: 10px 20px 10px 20px;
+    margin-top: 9px;
+    border-radius: 99px;
+    border: none;
+    outline: none;
+    font-size: smaller;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.detail button:hover {
+    color: goldenrod;
+    background-color: black;
+}
+
+.img {
+    background-image: url(https://static.zara.net/assets/public/b4ea/b30c/440f49898218/d049d1e01228/01034820800-e1/01034820800-e1.jpg?ts=1718351019183&w=315);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img:hover {
+    background-image: url(https://static.zara.net/assets/public/36ac/4630/a6004fa29c77/79dfa0454945/01034820800-a1/01034820800-a1.jpg?ts=1718808182825&w=315);
+    background-size: cover;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-1 {
+    background-image: url(https://static.zara.net/assets/public/04e8/a22f/fdb945e99c49/cb1857235899/00761311803-e1/00761311803-e1.jpg?ts=1709713542120&w=315);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-1:hover {
+    background-image: url(https://static.zara.net/assets/public/8740/c1ff/e1f442ff87d1/dd7d24cb5c00/00761311803-a1/00761311803-a1.jpg?ts=1710778013953&w=315);
+    background-size: cover;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-2 {
+    background-image: url(https://static.zara.net/assets/public/5978/2efb/2ea84ae1bbd2/10b58071912e/07521602800-e1/07521602800-e1.jpg?ts=1709804429547&w=315);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-2:hover {
+    background-image: url(https://static.zara.net/assets/public/82ea/6b30/d5fc4ccd90d5/cc1d3ade4653/07521602800-a1/07521602800-a1.jpg?ts=1709894335928&w=315);
+    background-size: cover;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-3 {
+    background-image: url(https://static.zara.net/assets/public/a1c5/8ec1/7c4847ed9c08/05d03e0240ae/06224318251-e1/06224318251-e1.jpg?ts=1719817562753&w=315);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-3:hover {
+    background-image: url(https://static.zara.net/assets/public/7fba/8881/566d4ee7bedc/95be0e282f22/06224318251-a1/06224318251-a1.jpg?ts=1720014354393&w=315);
+    background-size: cover;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-4 {
+    background-image: url(https://static.zara.net/assets/public/321b/fe49/0cb64d3692ab/a4219dfed765/00794550700-e1/00794550700-e1.jpg?ts=1723623096507&w=315);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-4:hover {
+    background-image: url(https://static.zara.net/assets/public/46cf/e8f4/86be4006a122/cc856b4e4f58/00794550700-a1/00794550700-a1.jpg?ts=1723622107993&w=315);
+    background-size: cover;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-5 {
+    background-image: url(https://static.zara.net/assets/public/7938/1ddb/f437402c8a26/176031a827e4/05586810075-e1/05586810075-e1.jpg?ts=1716803655163&w=315);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-5:hover {
+    background-image: url(https://static.zara.net/assets/public/97b8/eaff/f8e1415f9122/f6a2a9fd55ba/05586810075-a1/05586810075-a1.jpg?ts=1717150321694&w=315);
+    background-size: cover;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    height: 100px;
+}
+
+.shoe {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 0px;
+    flex-wrap: wrap;
+    height: 150px;
+}
+
+.nai {
+    color: rgb(0, 0, 0);
+    column-gap: 4px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: small;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logic {
+    font-size: xx-large;
+}
+
+.loGo {
+    width: 30px;
+    height: 30px;
+}

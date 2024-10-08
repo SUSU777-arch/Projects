@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 40px;
+    flex-wrap: wrap;
+}
+
+.up a{
+    color: #000000;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 550;
+}
+
+.f {
+    display: flex;
+    gap: 30px;
+
+}
+
+.g {
+    padding-right: 180px;
+    font-size: x-large;
+}
+
+.h {
+    display: flex;
+    gap: 30px;
+
+}
+
+
+
+
+
+/* MAIN */
+
+
+
+
+
+/* FOOTER */
+
+
+.shoe {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 0px;
+    flex-wrap: wrap;
+    height: 150px;
+}
+
+.nai {
+    color: rgb(0, 0, 0);
+    column-gap: 4px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: small;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logic {
+    font-size: xx-large;
+}
+
+.loGo {
+    width: 30px;
+    height: 30px;
+}

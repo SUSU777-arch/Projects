@@ -1,0 +1,299 @@
+body {
+    background-color:white;
+}
+header{
+    position: sticky;
+}
+.up {
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 40px;
+    flex-wrap: wrap;
+}
+
+.up a {
+    color: black;
+    text-decoration: none;
+    font-size: smaller;
+    font-weight: bold;
+
+}
+
+.f {
+    display: flex;
+    gap: 30px;
+
+}
+
+.g {
+    padding-right: 180px;
+    font-size: x-large;
+}
+
+.h {
+    display: flex;
+    gap: 30px;
+    font-size: small;
+}
+
+
+
+/* MAIN */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    background-color: black;
+    color: white;
+    height: 480px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+
+
+.ACCESSOEIRS {
+    font-family: serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 30px;
+    padding-bottom: 60px;
+}
+
+.jewlery {
+    width: 300px;
+    height: 470px;
+    border-radius: 13px;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px 0px 0px;
+}
+
+.detail-1 {
+    width: 200px;
+}
+
+.detail button {
+    padding: 10px 20px 10px 20px;
+    margin-top: 9px;
+    border-radius: 99px;
+    border: none;
+    outline: none;
+    font-size: smaller;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.detail button:hover {
+    color: goldenrod;
+    background-color: black;
+}
+
+
+.img {
+    background-image: url(https://static.zara.net/assets/public/45d6/dc2d/ab5a4f52b117/e37107320e82/04736308330-e1/04736308330-e1.jpg?ts=1723647636284&w=563);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img:hover {
+    background-image: url(https://static.zara.net/assets/public/6fb0/a58c/d58c489ba487/75f9b5c0a36a/04736308330-e22/04736308330-e22.jpg?ts=1723626805397&w=563);
+    background-size: cover;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-1 {
+    background-image: url(https://static.zara.net/assets/public/1918/1960/eb3943daa747/b6de73dfabff/04548300712-e1/04548300712-e1.jpg?ts=1723476814470&w=563);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-1:hover {
+    background-image: url(https://static.zara.net/assets/public/7eee/f8bd/fc18455396af/6dbba7d80363/04548300712-a1/04548300712-a1.jpg?ts=1723555808714&w=563);
+    background-size: cover;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-2 {
+    background-image: url(https://static.zara.net/assets/public/3286/9601/e8fb404f97f8/6a15ef807be4/12229410400-e2/12229410400-e2.jpg?ts=1723190892295&w=563);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-2:hover {
+    background-image: url(https://static.zara.net/assets/public/3d12/3f9b/bcc94e31b3b9/b9c21b077d4e/12229410400-e5/12229410400-e5.jpg?ts=1723190892822&w=563);
+    background-size: cover;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-3 {
+    background-image: url(https://static.zara.net/assets/public/2bfe/74f5/47f24fbab7f6/34b12be5f273/01736262700-e23/01736262700-e23.jpg?ts=1723626809419&w=563);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-3:hover {
+    background-image: url(https://static.zara.net/assets/public/eded/fc38/b9bf493ab316/ed99dabe42f3/01736262700-a1/01736262700-a1.jpg?ts=1723653209537&w=563);
+    background-size: cover;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-4 {
+    background-image: url(https://static.zara.net/assets/public/39a3/d268/c5c744998942/7526771f365c/16618410300-e2/16618410300-e2.jpg?ts=1722955305605&w=563);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    transition: 1s;
+    background-position: center;
+    border-radius: 13px;
+}
+
+.img-4:hover {
+    background-image: url(https://static.zara.net/assets/public/2864/4955/c01943d3b823/0c4d56e10c45/16618410300-a1/16618410300-a1.jpg?ts=1723021286863&w=563);
+    background-size: cover;
+    transition: 1s;
+    background-position: center;
+    border-radius: 13px;
+}
+
+.img-5 {
+    background-image: url(https://static.zara.net/assets/public/57f2/94b5/3d0a4163aa77/13e94bdd0d2d/03988207707-e1/03988207707-e1.jpg?ts=1720789819495&w=563);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-5:hover {
+    background-image: url(https://static.zara.net/assets/public/2dc7/3e5a/ba79408780ee/349cf32a7338/03988207707-e4/03988207707-e4.jpg?ts=1720789819273&w=563);
+    background-size: cover;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-6 {
+    background-image: url(https://static.zara.net/assets/public/7b56/7cb7/11a04fc1a298/a67dcc8f7515/01903202760-e1/01903202760-e1.jpg?ts=1722327256174&w=563);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-6:hover {
+    background-image: url(https://static.zara.net/assets/public/fdab/b200/4f9348119de1/e4ff865b6e99/01903202760-016-a2/01903202760-016-a2.jpg?ts=1722617896700&w=563);
+    background-size: cover;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-7 {
+    background-image: url(https://static.zara.net/assets/public/a34a/3a17/6616454aa0cd/797e09be6266/12319410105-e3/12319410105-e3.jpg?ts=1721290221322&w=563);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-7:hover {
+    background-image: url(https://static.zara.net/assets/public/8faf/92f1/dea04b57b4fe/7dd922d47b84/12319410105-p/12319410105-p.jpg?ts=1721391016429&w=563);
+    background-size: cover;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-8 {
+    background-image: url(https://static.zara.net/assets/public/24cd/0b2b/3f6742689e43/b3573fcaa58d/00653203730-e1/00653203730-e1.jpg?ts=1716363103077&w=563);
+    background-size: cover;
+    width: 300px;
+    height: 400px;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+.img-8:hover {
+    background-image: url(https://static.zara.net/assets/public/a865/c5d0/f03f435bb899/67c5ac2d0c1f/00653203730-e2/00653203730-e2.jpg?ts=1716363103267&w=563);
+    background-size: cover;
+    transition: 1s;
+    border-radius: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+
+
+.shoe {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 0px;
+    flex-wrap: wrap;
+    height: 150px;
+}
+
+.nai {
+    color: rgb(0, 0, 0);
+    column-gap: 4px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: small;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logic {
+    font-size: xx-large;
+}
+
+.loGo {
+    width: 30px;
+    height: 30px;
+}
