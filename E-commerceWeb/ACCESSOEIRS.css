@@ -1,44 +1,119 @@
-body {
-    background-color:white;
+* {
+    padding: 0px;
+    margin: 0px;
 }
-header{
-    position: sticky;
-}
-.up {
+
+/* General Styles */
+nav {
     display: flex;
+    padding: 20px 40px;
     justify-content: space-between;
-    font-size: medium;
+    align-items: center;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    padding: 20px;
-    padding-left: 35px;
-    padding-right: 40px;
-    flex-wrap: wrap;
 }
 
-.up a {
-    color: black;
+ul a {
     text-decoration: none;
-    font-size: smaller;
-    font-weight: bold;
-
+    padding: 10px;
+    color: black;
 }
 
-.f {
+ul a:hover {
+    border-bottom: 1px solid black;
+}
+
+.firstlinks,
+.secondlinks {
     display: flex;
-    gap: 30px;
-
+    gap: 1rem;
+    width: max-content;
+    letter-spacing: 1px;
 }
 
-.g {
-    padding-right: 180px;
+.logo {
     font-size: x-large;
 }
 
-.h {
-    display: flex;
-    gap: 30px;
-    font-size: small;
+.secondlinks {
+    gap: 1rem;
 }
+
+/* Desktop Layout */
+@media (min-width: 1024px) {
+    .logo {
+        padding-left: 140px;
+        width: 450px;
+    }
+}
+
+/* Tablet Layout */
+@media (min-width: 768px) and (max-width: 1023px) {
+    ul {
+        padding: 15px 20px;
+    }
+
+    .firstlinks {
+        gap: 1.5rem;
+    }
+
+    .secondlinks {
+        gap: 1.5rem;
+    }
+
+    .logo {
+        padding-left: 50px;
+        width: auto;
+        font-size: large;
+    }
+}
+
+/* Mobile Layout */
+@media (max-width: 767px) {
+    ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .firstlinks,
+    .secondlinks {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: large;
+        padding: 20px 0;
+    }
+
+    ul a {
+        padding: 10px 0;
+        font-size: medium;
+    }
+}
+
+/* Mobile Layout - Small Devices */
+@media (max-width: 480px) {
+    ul {
+        padding: 10px;
+    }
+
+    .firstlinks,
+    .secondlinks {
+        gap: 0.5rem;
+    }
+
+    ul a {
+        font-size: small;
+    }
+
+    .logo {
+        font-size: medium;
+    }
+}
+
 
 
 
