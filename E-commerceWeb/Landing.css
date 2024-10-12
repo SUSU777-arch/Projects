@@ -241,10 +241,13 @@ ul a:hover {
 
 .trendcontainer {
     width: 100%;
+    background-image: ;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .itemcontainer {
-   padding: 30px;
+    padding: 30px;
 }
 
 .wordssign {
@@ -256,18 +259,106 @@ ul a:hover {
 
 .wordssign span {
     font-size: 50px;
+    text-shadow: 3px 3px 5px grey;
+    width: 30%;
+    background-image: url(Untitled\ design.png);
+    background-size: contain;
 }
 
-.wordssign p {
-    background-image: url(https://i.pinimg.com/564x/a9/e5/33/a9e533a99ee6f33c3d0fccff71598743.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    font-size: large;
+.adanimation {
+    width: 100%;
     display: flex;
-    align-items: center;
-    padding-left: 120px;
-    margin-left: 20px;
+    overflow: hidden;
 }
+
+.adno {
+    width: 100%;
+    background-image: url(Boyscls.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    animation-name: adtoogle;
+    animation-timing-function: 5s;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+@keyframes ad-1toogle {
+    0%{
+
+    }
+    50%{
+        width: 300%;
+        background-image: url(Pingo.png);
+        background-size: contain;
+    }
+    100%{
+ width: 200%;
+        background-image:url(Girlcls.png);
+        background-size: contain;
+    }
+}
+.adno-1 {
+    width: 200%;
+    height: auto;
+    background-image: url(Girlcls.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 2;
+    animation-name: adtoogle;
+    animation-timing-function: 5s;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+@keyframes adtoogle {
+    0%{
+        width: 200%;
+        background-image:url(Girlcls.png);
+        background-size: contain;
+    }
+    50%{
+        width: 300%;
+        background-image:url(Boyscls.png);
+        background-size: contain;
+        transform: rotate(180deg);
+    }
+    100%{
+        width: 300%;
+        background-image: url(Pingo.png);
+        background-size: contain;
+    }
+}
+.adno-2{
+    width: 100%;
+    background-image: url(Pingo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    animation-name: ad-2toogle;
+    animation-timing-function: 5s;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+@keyframes ad-2toogle {
+    0%{
+
+    }
+    50%{
+        width: 200%;
+        background-image:url(Girlcls.png);
+        background-size: contain;
+    }
+    100%{
+        background-image: url(Boyscls.png);
+    }
+    }
+
 
 .productlayout {
     display: flex;
@@ -309,7 +400,8 @@ ul a:hover {
     border: 1px solid black;
     cursor: pointer;
 }
-.productprice button:hover{
+
+.productprice button:hover {
     background-color: black;
     border: 1px solid black;
     color: white;
