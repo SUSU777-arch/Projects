@@ -251,10 +251,8 @@ ul a:hover {
 }
 
 .wordssign {
-    text-align: center;
     margin-bottom: 28px;
     display: flex;
-    padding: 0px 20px;
 }
 
 .wordssign span {
@@ -316,7 +314,7 @@ ul a:hover {
 @keyframes adtoogle {
     0%{
         width: 200%;
-        background-image:url(Girlcls.png);
+        background-image:url(Pingo.png);
         background-size: contain;
     }
     50%{
@@ -327,38 +325,10 @@ ul a:hover {
     }
     100%{
         width: 300%;
-        background-image: url(Pingo.png);
+        background-image: url(Girlcls.png);
         background-size: contain;
     }
 }
-.adno-2{
-    width: 100%;
-    background-image: url(Pingo.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    z-index: 1;
-    animation-name: ad-2toogle;
-    animation-timing-function: 5s;
-    animation-iteration-count: infinite;
-    animation-duration: 5s;
-    animation-delay: 2s;
-}
-@keyframes ad-2toogle {
-    0%{
-
-    }
-    50%{
-        width: 200%;
-        background-image:url(Girlcls.png);
-        background-size: contain;
-    }
-    100%{
-        background-image: url(Boyscls.png);
-    }
-    }
-
 
 .productlayout {
     display: flex;
