@@ -253,81 +253,27 @@ ul a:hover {
 .wordssign {
     margin-bottom: 28px;
     display: flex;
+    text-align: center;
+    background-image: url(ba263482267e239c6a745ab16b31fcc3.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
 }
 
 .wordssign span {
     font-size: 50px;
     text-shadow: 3px 3px 5px grey;
-    width: 30%;
-    background-image: url(Untitled\ design.png);
-    background-size: contain;
+    width: 250px;
+    margin-left: 20px;
 }
 
 .adanimation {
-    width: 100%;
+    width: 550px;
     display: flex;
-    overflow: hidden;
-}
-
-.adno {
-    width: 100%;
-    background-image: url(Boyscls.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    z-index: 1;
-    animation-name: adtoogle;
-    animation-timing-function: 5s;
-    animation-iteration-count: infinite;
-    animation-duration: 5s;
-}
-@keyframes ad-1toogle {
-    0%{
-
-    }
-    50%{
-        width: 300%;
-        background-image: url(Pingo.png);
-        background-size: contain;
-    }
-    100%{
- width: 200%;
-        background-image:url(Girlcls.png);
-        background-size: contain;
-    }
-}
-.adno-1 {
-    width: 200%;
-    height: auto;
-    background-image: url(Girlcls.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    z-index: 2;
-    animation-name: adtoogle;
-    animation-timing-function: 5s;
-    animation-iteration-count: infinite;
-    animation-duration: 5s;
-}
-@keyframes adtoogle {
-    0%{
-        width: 200%;
-        background-image:url(Pingo.png);
-        background-size: contain;
-    }
-    50%{
-        width: 300%;
-        background-image:url(Boyscls.png);
-        background-size: contain;
-        transform: rotate(180deg);
-    }
-    100%{
-        width: 300%;
-        background-image: url(Girlcls.png);
-        background-size: contain;
-    }
+    text-align: center;
+    align-items: center;
+    margin-left: 150px;
+    font-size: large;
 }
 
 .productlayout {
