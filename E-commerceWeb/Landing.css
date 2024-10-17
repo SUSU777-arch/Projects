@@ -274,6 +274,9 @@ ul a:hover {
     align-items: center;
     margin-left: 150px;
     font-size: large;
+    background-color: rgb(0, 0, 0, 0.4);
+    border-radius: 100px 1000px;
+    padding: 0px 20px;
 }
 
 .productlayout {
@@ -315,6 +318,7 @@ ul a:hover {
     outline: none;
     border: 1px solid black;
     cursor: pointer;
+    background-color: white;
 }
 
 .productprice button:hover {
@@ -323,12 +327,80 @@ ul a:hover {
     color: white;
 }
 
+/* BRANDS OUTFIT VAULT */
+
+.Brandscontainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 100px 0px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.brandspic {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: auto;
+    margin-left: 30px;
+}
+
+.brandspic img {
+    width: 150px;
+    height: 300px;
+    position: relative;
+    box-shadow: 3px 3px 5px 2px grey;
+}
+
+.image:nth-child(odd) {
+    top: -20px;
+}
+
+.image:nth-child(even) {
+    top: 0px;
+    /* Even images stay at normal level */
+}
+
+.brandtext {
+    width: max-content;
+    text-align: center;
+    background-image: linear-gradient(black, white);
+    color: white;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.brandtext span {
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.brandtext p {
+    font-size: large;
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.brandtext button {
+    position: relative;
+    left: 150px;
+    top: 50px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid white;
+    outline: none;
+    cursor: pointer;
+}
+
+.brandtext button:hover {
+    background-color: black;
+    color: white;
+}
 
 
 
-
-
-
+/* ABOUT */
 
 .About {
     display: flex;
@@ -343,9 +415,9 @@ ul a:hover {
 }
 
 .About img {
-    height: 450px;
-    padding: 20px 20px 20px 60px;
-    width: 340px;
+    height:auto;
+    padding-top: 7px;
+    width: 300px;
 }
 
 .US {
@@ -365,6 +437,10 @@ ul a:hover {
     background-color: black;
     color: white;
 }
+
+
+/* SEAONS COLLECTIONS */
+
 
 .seasons {
     background-color: black;
@@ -409,6 +485,10 @@ ul a:hover {
     background-color: black;
     color: white;
 }
+
+
+/* FEED BACK SECTION */
+
 
 .Feed {
     display: flex;
