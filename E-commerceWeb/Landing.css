@@ -333,70 +333,73 @@ ul a:hover {
     width: 100%;
     height: auto;
     display: flex;
-    margin: 100px 0px;
-    gap: 20px;
     justify-content: space-between;
+    margin: 20px 0px;
 }
 
-.brandspic {
+.zara,
+.prada,
+.louis-vuitton,
+.gucci {
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 450px;
+    margin: 5px 15px 5px 15px;
+    box-shadow: 2px 2px 5px 2px grey;
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    width: auto;
-    margin-left: 30px;
-}
-
-.brandspic img {
-    width: 150px;
-    height: 300px;
-    position: relative;
-    box-shadow: 3px 3px 5px 2px grey;
-}
-
-.image:nth-child(odd) {
-    top: -20px;
-}
-
-.image:nth-child(even) {
-    top: 0px;
-    /* Even images stay at normal level */
-}
-
-.brandtext {
-    width: max-content;
-    text-align: center;
-    background-image: linear-gradient(black, white);
     color: white;
-    padding: 20px;
-    flex-wrap: wrap;
+    flex-direction: column;
+
+    p {
+        background-color: rgb(0, 0, 0, 0.4);
+        letter-spacing: 0.1rem;
+        padding: 10px;
+        height: 100%;
+        overflow: hidden;
+        opacity: 0;
+    }
+
+    button {
+        padding: 10px 20px 10px 20px;
+        margin-top: 30px;
+        border: 2px solid white;
+        outline: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: black;
+        color: white;
+    }
+
+    p:hover {
+        background-color: rgb(0, 0, 0, 0.4);
+        letter-spacing: 0.1rem;
+        padding: 10px;
+        height: 100%;
+        opacity: 1;
+        transition: 1s;
+    }
 }
 
-.brandtext span {
-    font-size: 30px;
-    margin-bottom: 35px;
+
+.zara {
+    background-image: url(https://i.pinimg.com/564x/39/8c/65/398c65cf7807a0bff29e163f2a715592.jpg);
 }
 
-.brandtext p {
-    font-size: large;
-    width: 400px;
-    margin-left: 40px;
-    margin-top: 20px;
+.prada {
+    background-image: url(https://i.pinimg.com/564x/2f/18/4d/2f184d68662661e7d3c72b417817d783.jpg);
 }
 
-.brandtext button {
-    position: relative;
-    left: 150px;
-    top: 50px;
-    padding: 10px 20px 10px 20px;
-    border: 2px solid white;
-    outline: none;
-    cursor: pointer;
+.louis-vuitton {
+    background-image: url(https://i.pinimg.com/736x/a6/4c/44/a64c4414fa291a5c94e1a0ff6ab82bb1.jpg);
 }
 
-.brandtext button:hover {
-    background-color: black;
-    color: white;
+.gucci {
+    background-image: url(https://i.pinimg.com/564x/22/a2/3a/22a23a613ff0edf91b46cce3516e3e53.jpg);
 }
+
 
 
 
@@ -415,7 +418,7 @@ ul a:hover {
 }
 
 .About img {
-    height:auto;
+    height: auto;
     padding-top: 7px;
     width: 300px;
 }
