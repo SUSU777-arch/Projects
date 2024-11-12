@@ -284,6 +284,7 @@ ul a:hover {
     justify-content: space-between;
     height: 89.70%;
     flex-wrap: wrap;
+    margin-top: 70px;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
 }
@@ -332,38 +333,38 @@ ul a:hover {
 .Brandscontainer {
     width: 100%;
     height: auto;
-    display: flex;
-    justify-content: space-between;
     margin: 20px 0px;
 }
 
 .zara,
-.prada,
-.louis-vuitton,
 .gucci {
-    background-size: cover;
-    background-position: center;
-    width: 300px;
-    height: 450px;
-    margin: 5px 15px 5px 15px;
-    box-shadow: 2px 2px 5px 2px grey;
     display: flex;
-    color: white;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 100px;
+
+    img {
+        width: 350px;
+        height: auto;
+    }
 
     p {
-        background-color: rgb(0, 0, 0, 0.4);
-        letter-spacing: 0.1rem;
-        padding: 10px;
-        height: 100%;
-        overflow: hidden;
-        opacity: 0;
+        text-align: center;
+        width: 50%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
     }
 
     button {
         padding: 10px 20px 10px 20px;
-        margin-top: 30px;
-        border: 2px solid white;
+        margin-top: 100px;
+        border: 1px solid rgb(0, 0, 0);
         outline: none;
         cursor: pointer;
     }
@@ -373,31 +374,6 @@ ul a:hover {
         color: white;
     }
 
-    p:hover {
-        background-color: rgb(0, 0, 0, 0.4);
-        letter-spacing: 0.1rem;
-        padding: 10px;
-        height: 100%;
-        opacity: 1;
-        transition: 1s;
-    }
-}
-
-
-.zara {
-    background-image: url(https://i.pinimg.com/564x/39/8c/65/398c65cf7807a0bff29e163f2a715592.jpg);
-}
-
-.prada {
-    background-image: url(https://i.pinimg.com/564x/2f/18/4d/2f184d68662661e7d3c72b417817d783.jpg);
-}
-
-.louis-vuitton {
-    background-image: url(https://i.pinimg.com/736x/a6/4c/44/a64c4414fa291a5c94e1a0ff6ab82bb1.jpg);
-}
-
-.gucci {
-    background-image: url(https://i.pinimg.com/564x/22/a2/3a/22a23a613ff0edf91b46cce3516e3e53.jpg);
 }
 
 
